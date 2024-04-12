@@ -11,7 +11,7 @@
     "clean": "del ./build*",
     "build": "npm run clean && tsc",
     "git": "git add . && git commit -m 'publish'",
-    "pub": "npm run git && npm version patch && npm run build && npm publish"
+    "pub": "npm run git && npm version patch && npm run build && npm publish --access publish"
   },
   "keywords": [],
   "author": "Voskan Voskanyan <voskan1989@gmail.com>",
